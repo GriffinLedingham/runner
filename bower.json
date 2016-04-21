@@ -1,0 +1,23 @@
+{
+  "name": "Runner",
+  "version": "0.0.0",
+  "authors": [
+    "Griffin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "q": "~1.0.1",
+    "lodash": "*",
+    "jquery": "*",
+    "handlebars": "~4.0.5",
+    "gmaps": "*"
+  },
+  "devDependencies": {}
+}

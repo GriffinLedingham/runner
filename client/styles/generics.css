@@ -1,0 +1,55 @@
+.center-align {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-100 {
+  top: 100px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.height-40 {
+  height: 40px;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.bg-red {
+  background: red;
+}
+
+.bg-green {
+  background: green;
+}
+
+.hide {
+  display: none;
+}
+
+.z-2 {
+  z-index: 2;
+}
