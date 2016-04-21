@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "npm install && bower install"
+    "setup": "npm install && bower install && grunt build && cordova platform add ios"
   },
   "author": "Griffin",
   "license": "ISC",
@@ -20,7 +20,8 @@
     "grunt-contrib-uglify": "~0.11.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-express-server": "^0.5.2",
-	"grunt-babel": "*"
+    "babel-plugin-transform-es2015-arrow-functions": "*",
+	  "grunt-babel": "*"
   },
   "devDependencies": {
     "grunt-contrib-coffee": "^1.0.0"
