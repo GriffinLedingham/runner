@@ -5,4 +5,32 @@ canvas {
 
 body {
   margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.gm-style-cc { display:none; }
+#map a img { display:none; }
+
+#start_button {
+  color: white;
+  background: rgb(29,149,214);
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+#stop_button {
+  color: white;
+  background: #D47373;
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+#cancel_button {
+  color: black;
+  background: #EFEAE0;
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 5px;
 }

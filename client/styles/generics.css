@@ -6,6 +6,10 @@
   display: inline-block;
 }
 
+.block {
+  display: block;
+}
+
 .absolute {
   position: absolute;
 }
@@ -18,8 +22,16 @@
   top: 100px;
 }
 
+.top-60-per {
+  top: 60%;
+}
+
 .bottom-0 {
   bottom: 0px;
+}
+
+.bottom-40-per {
+  bottom: 40%;
 }
 
 .left-0 {
@@ -34,6 +46,10 @@
   height: 40px;
 }
 
+.height-135 {
+  height: 135px;
+}
+
 .width-100 {
   width: 100px;
 }
@@ -46,10 +62,98 @@
   background: green;
 }
 
+.bg-dark-grey {
+  background: rgb(40,40,40);
+}
+
+.bg-bright-yellow {
+  background: rgb(250,243,13);
+}
+
 .hide {
   display: none;
 }
 
 .z-2 {
   z-index: 2;
+}
+
+.margin-top-neg-50 {
+  margin-top: -50px;
+}
+
+.black-box-shadow {
+  box-shadow: 0px 0px 30px 5px black;
+}
+
+.yellow-black {
+  color: rgb(59,59,0);
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.width-33-per {
+  width: 33%;
+}
+
+.width-34-per {
+  width: 34%;
+}
+
+.padding-top-45 {
+  padding-top: 45px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.top-20 {
+  top: 20px;
+}
+
+.left-20 {
+  left: 20px;
+}
+
+.top-40 {
+  top: 40px;
+}
+
+.left-30 {
+  left: 30px;
+}
+
+.yellow {
+  color: rgb(250,243,13);
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-left-20 {
+  margin-left: 20px;
+}
+
+.margin-right-20 {
+  margin-right: 20px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.padding-10 {
+  padding: 10px;
 }

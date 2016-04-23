@@ -1,16 +1,31 @@
 <script id="runningViewTemplate" type="text/x-handlebars-template">
-  <div id="running_view_wrapper">
-    <div id="map" class="absolute top-0 bottom-0 left-0 right-0"></div>
+  <div id="running_view_wrapper" class="bottom-0 top-0 left-0 right-0 absolute bg-dark-grey">
+    <div class="absolute top-40 left-30 yellow z-2"><span id="dist" class="font-size-30">0.0</span><span class="font-size-16">km</span></div>
+    <div id="map" class="absolute top-0 bottom-40-per left-0 right-0"></div>
   </div>
 </script>
 
-<script id="runningViewButtonsTemplate" type="text/x-handlebars-template">
-  <div id="buttons" class="absolute left-0 right-0 top-100 center-align z-2">
-    <div id="start_button" class="height-40 width-100 bg-green inline-block">
-      Start
+<script id="runningViewStatsTemplate" type="text/x-handlebars-template">
+  <div id="stats" class="absolute left-0 right-0 top-60-per center-align z-2 margin-top-neg-50 bottom-0 black-box-shadow yellow-black font-size-30">
+    <div class="height-135 bg-bright-yellow">
+      <div class="float-left width-33-per padding-top-45">
+        <span id="cur_pace">0.0</span><span class="font-size-16">m/km</span>
+      </div><div class="float-left width-34-per padding-top-45">
+        <span id="time">0.0</span>
+      </div><div class="float-right width-33-per padding-top-45">
+        <span id="avg_pace">0.0</span><span class="font-size-16">m/km</span>
+      </div>
     </div>
-    <div id="stop_button" class="hide height-40 width-100 bg-red">
-      Stop
+    <div id="buttons" class="center-align z-2 absolute left-0 right-0 bottom-0">
+      <div id="start_button" class="height-40 margin-left-20 margin-right-20 margin-bottom-20 padding-10 bg-green block margin-auto">
+        Start
+      </div>
+      <div id="stop_button" class="hide height-40 margin-left-20 margin-right-20 margin-bottom-20 padding-10 bg-red">
+        Stop
+      </div>
+      <div id="cancel_button" class="height-40 margin-left-20 margin-right-20 margin-bottom-20 padding-10 bg-red block margin-auto">
+        Cancel
+      </div>
     </div>
   </div>
 </script>
